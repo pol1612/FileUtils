@@ -3,7 +3,7 @@
  */
 package cat.uvic.teknos.m06.FileUtils;
 
-public class Library {
+public class FileUtils {
     public boolean someLibraryMethod() {
         return true;
     }
