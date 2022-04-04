@@ -7,10 +7,13 @@ import java.io.File;
 public class FileUtils {
     public static boolean isValidDirectory(String path) {
         File file1 = new File(path);
-        if(file1.exists()){
-            return true;
-        }else{
+        if(!file1.exists()){
             return false;
         }
+        if(!file1.isDirectory()){
+            return false;
+        }
+
+        return true;
     }
 }

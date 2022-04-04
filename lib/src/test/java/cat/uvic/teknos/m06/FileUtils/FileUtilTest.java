@@ -7,8 +7,17 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FileUtilTest {
-    @Test void someLibraryMethodReturnsTrue() {
+    @Test void ExistsTrue() {
         assertTrue(FileUtils.isValidDirectory("src/test/resources/test"), "someLibraryMethod should return 'true'");
-        assertFalse(FileUtils.isValidDirectory("src/test/resources/pol"), "someLibraryMethod should return 'false'");    }
+    }
+    @Test void ExistsFalse() {
+        assertFalse(FileUtils.isValidDirectory("src/test/resources/pol"), "someLibraryMethod should return 'false'");
+    }
+    @Test void DirectoryTrue() {
+        assertTrue(FileUtils.isValidDirectory("src/test/resources/test"), "someLibraryMethod should return 'true'");
+    }
+    @Test void DirectoryFalse() {
+        assertFalse(FileUtils.isValidDirectory("src/test/resources/test/pol.txt"), "someLibraryMethod should return 'false'");
+    }
 
 }

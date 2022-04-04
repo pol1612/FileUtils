@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd94824d-30b9-4332-baad-8693a7583b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/test/resources/test/pol.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/cat/uvic/teknos/m06/FileUtils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/cat/uvic/teknos/m06/FileUtils/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/cat/uvic/teknos/m06/FileUtils/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/cat/uvic/teknos/m06/FileUtils/FileUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/cat/uvic/teknos/m06/FileUtils/FileUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/cat/uvic/teknos/m06/FileUtils/FileUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
