@@ -19,11 +19,11 @@ class FileUtilTest {
     @Test void DirectoryFalse() {
         assertFalse(FileUtils.isValidDirectory("src/test/resources/test/pol.txt"), "someLibraryMethod should return 'false'");
     }
-    @Test void EmptyFalse() {
-        assertFalse(FileUtils.isValidDirectory("src/test/resources"), "someLibraryMethod should return 'false'");
-    }
     @Test void EmptyTrue() {
         assertTrue(FileUtils.isValidDirectory("src/test/resources/test/test2"), "someLibraryMethod should return 'true'");
+    }
+    @Test void BlankFalse() {
+        assertFalse(FileUtils.isValidDirectory("src/test/resources/test/test2/pol sane"), "someLibraryMethod should return 'true'");
     }
 
 }

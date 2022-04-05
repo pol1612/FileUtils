@@ -21,6 +21,11 @@ public class FileUtils {
             return false;
         }
         System.out.println("empty check");
+        var abs_pth=file1.getAbsolutePath();
+        var abs=abs_pth.split("");
+        if (abs.contains(" ")){
+            return false;
+        }
         return true;
     }
 }
