@@ -7,13 +7,20 @@ import java.io.File;
 public class FileUtils {
     public static boolean isValidDirectory(String path) {
         File file1 = new File(path);
+        System.out.println("length: "+file1.length());
         if(!file1.exists()){
             return false;
         }
+        System.out.println("exists check");
         if(!file1.isDirectory()){
             return false;
         }
-
+        System.out.println("directory check");
+        String[] files = file1.list();
+        if(files.length()!=0){
+            return false;
+        }
+        System.out.println("empty check");
         return true;
     }
 }
